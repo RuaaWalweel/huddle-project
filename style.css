@@ -1,0 +1,593 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css');
+
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: white;
+    color: hsl(192, 100%, 9%);
+    line-height: 1.6;
+    overflow-x: hidden;
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.logo {
+    height: 60px;
+    width: 150px;
+}
+
+.try-btn {
+    background-color: white;
+    border: 1px solid hsl(322, 100%, 66%);
+    border-radius: 40px;
+    padding: 10px 20px;
+    color: hsl(322, 100%, 66%);
+    cursor: pointer;
+}
+
+.try-btn:hover {
+    background-color: hsl(322, 100%, 66%);
+    color: white;
+}
+
+/* Text Section */
+.text {
+    text-align: center;
+    padding: 30px;
+}
+
+.text h1 {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+    text-transform: capitalize;
+}
+
+.text p {
+    font-weight: 400;
+    color: hsl(192, 100%, 9%);
+}
+
+/* Get Started Button */
+.btn {
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+
+.btn button {
+    background-color: hsl(322, 100%, 66%);
+    border: none;
+    border-radius: 40px;
+    color: white;
+    padding: 15px 40px;
+    cursor: pointer;
+}
+
+.getstart-btn button:hover {
+    background-color: hsl(322, 80%, 56%);
+}
+
+/* Image Section */
+.screen-mockups img {
+    width: 100%;
+    height: auto;
+    padding: 100px;
+   
+}
+
+/* Counter Section */
+.counter-section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 30px;
+}
+
+.counter {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.counter i {
+    font-size: 24px;
+    color: hsl(322, 100%, 66%);
+    margin-bottom: 10px;
+}
+
+.counter h2 {
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+.counter p {
+    font-size: 1rem;
+    color: hsl(192, 100%, 9%);
+}
+
+/* Grow Together Section */
+.grow-together-top {
+    background-image: url(images/bg-section-top-desktop-1.svg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 100px;
+}
+
+.grow-together {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    background-color: hsl(207, 100%, 98%);
+    width: 100%;
+
+}
+
+.grow-together img {
+    width: 60%;
+    height: auto;
+
+}
+
+.grow-together .text h1 {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.grow-together .text p {
+    font-weight: 400;
+    color: hsl(192, 100%, 9%);
+}
+
+#grow-together-buttom {
+    background-image: url(images/bg-section-bottom-desktop-1.svg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 150px;
+}
+
+
+.flowing-conv {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    width: 100%;
+}
+
+.flowing-conv img {
+    width: 100%;
+    height: auto;
+    margin: auto;
+}
+
+/* user */
+.user-top {
+    background-image: url(images/bg-section-top-desktop-2.svg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 100px;
+   
+}
+
+.users {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    background-color: hsl(207, 100%, 98%);
+    width: 100%;
+}
+
+.users img {
+    width: 100%;
+    height: 300px;
+}
+.users .text h1 {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.users .text p {
+    font-weight: 400;
+    color: hsl(192, 100%, 9%);
+}
+
+#user-buttom {
+    background-image: url(images/bg-section-bottom-desktop-2.svg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 100px;
+}
+
+/* footer */
+.footer-top {
+    background-image: url(images/bg-footer-top-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 100px;
+}
+
+footer {
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row-reverse;
+    background-color: hsl(192, 100%, 9%);
+    color: white;
+    padding: 50px 20px;
+    text-align: left;
+    max-width: 100%;
+    gap: 150px;
+}
+.newsletter{
+    width: 40%;
+}
+.newsletter h2 {
+    font-size: 1.4em;
+    margin-bottom: 15px;
+}
+
+.newsletter p {
+    font-size: 0.9em;
+    line-height: 1.5em;
+    margin-bottom: 20px;
+}
+
+.newsletter form {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.newsletter input[type="email"] {
+    padding: 10px;
+    width: 60%;
+    border: none;
+    border-radius: 5px;
+    margin-right: 20px;
+}
+
+.newsletter button {
+    background-color: #ff52bf;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    width: 20%;
+    align-items: flex-end;
+
+}
+
+.newsletter button:hover {
+    background-color: #ff33aa;
+}
+
+.company-info {
+    width: 40%;
+}
+
+.company-info h1 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.company-info p {
+    font-size: 0.9em;
+    line-height: 1.5em;
+    margin-bottom: 20px;
+}
+
+.contact-info p {
+    font-size: 0.9em;
+    margin: 5px 0;
+}
+
+.contact-info img {
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+.social-media {
+    margin-top: 20px;
+    color: white;
+}
+
+.social-media a {
+    margin-right: 15px;
+    display: inline-block;
+}
+
+.social-media i {
+    color: white;
+}
+
+
+/* Media Queries */
+/* Styles for phones (max-width: 480px) */
+@media (max-width: 480px) {
+    body {
+        padding: 10px;
+        font-size: 14px;
+    }
+
+
+    .logo {
+        height: 50px;
+        width: 130px;
+    }
+
+    .try-btn {
+        padding: 8px 15px;
+        font-size: 14px;
+    }
+
+    .text h1 {
+        font-size: 1.5rem;
+        margin-bottom: 15px;
+    }
+
+    .text p {
+        font-size: 1rem;
+        padding: 0 15px;
+    }
+
+    .btn button {
+        padding: 12px 25px;
+        font-size: 1rem;
+    }
+
+    .screen-mockups img {
+        width: 100%;
+        padding: 30px 0;
+    }
+
+    .counter-section {
+        flex-direction: column;
+        padding: 15px;
+    }
+
+    .counter h2 {
+        font-size: 2rem;
+    }
+
+    .counter p {
+        font-size: 0.9rem;
+    }
+
+    .grow-together-img,
+    .flowing-conv img,
+    .users img {
+        width: 100%;
+        padding: 20px 0;
+    }
+
+    .grow-together {
+        flex-direction: column-reverse;
+    }
+
+    .grow-together img {
+        width: 100%;
+        height: auto;
+
+    }
+
+    .grow-together-top {
+        background-image: url(images/bg-section-top-mobile-1.svg);
+    }
+
+    #grow-together-buttom {
+        background-image: url(images/bg-section-bottom-mobile-1.svg);
+    }
+
+    .flowing-conv {
+        flex-direction: column;
+    }
+
+    .flowing-conv img {
+        width: 100%;
+        height: auto;
+        margin: auto;
+    }
+
+    .user-top {
+        background-image: url(images/bg-section-top-mobile-2.svg);
+        
+    }
+
+    .users {
+        flex-direction: column-reverse;
+        
+    }
+
+    .users img {
+        width: 100%;
+    }
+
+    #user-buttom {
+        background-image: url(images/bg-section-bottom-mobile-2.svg);
+    }
+
+  
+    .footer-top {
+        background-image: url(images/bg-footer-top-mobile.svg);
+        
+    }
+    footer {
+        flex-direction: column;
+        gap: 50px;
+        font-size: 0.9rem;
+    }
+    .newsletter{
+        width: 100%;
+    }
+
+    .newsletter h2 {
+        font-size: 1.2rem;
+    }
+    .newsletter form {
+        flex-direction: column;
+    }
+    .newsletter input[type="email"] {
+        width: 100%;
+        font-size: 0.9rem;
+    }
+
+    .newsletter button {
+        width: 40%;
+        padding: 10px;
+        font-size: 1rem;
+    }
+    .company-info{
+        width: 100%;
+    }
+    .company-info p {
+        font-size: 0.9rem;
+    }
+
+    .social-media a {
+        font-size: 1.2rem;
+    }
+}
+
+/* Styles for smaller devices (max-width: 767px) */
+@media (max-width: 767px) {
+    .counter-section {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .text h1 {
+        font-size: 1.8rem;
+    }
+
+    .counter h2 {
+        font-size: 2rem;
+    }
+
+    .getstart-btn button {
+        padding: 10px 20px;
+    }
+
+    body {
+        padding: 20px;
+    }
+
+    .grow-together {
+        flex-direction: column-reverse;
+    }
+
+    .grow-together img {
+        width: 100%;
+        height: auto;
+
+    }
+
+    .grow-together-top {
+        background-image: url(images/bg-section-top-mobile-1.svg);
+    }
+
+    #grow-together-buttom {
+        background-image: url(images/bg-section-bottom-mobile-1.svg);
+    }
+
+    .flowing-conv {
+        flex-direction: column;
+    }
+
+    .flowing-conv img {
+        width: 100%;
+        height: auto;
+        margin: auto;
+    }
+    .user-top {
+        background-image: url(images/bg-section-top-mobile-2.svg);
+        
+    }
+
+    .users {
+        flex-direction: column-reverse;
+    }
+
+    .users img {
+        width: 100%;
+    }
+
+    #user-buttom {
+        background-image: url(images/bg-section-bottom-mobile-2.svg);
+    }
+    .footer-top {
+        background-image: url(images/bg-footer-top-mobile.svg);
+        
+    }
+    footer{
+        flex-direction: column;
+        gap: 50px;
+    }
+    .newsletter{
+        width: 100%;
+    }
+    .newsletter input[type="email"] {
+        width: 100%;
+        
+    }
+    .newsletter form {
+        flex-direction: column;
+    }
+    .company-info{
+        width: 100%;
+    }
+}
+
+/* Styles for medium devices (min-width: 768px) and (max-width: 1023px) */
+@media (min-width: 768px) and (max-width: 1023px) {
+    .counter-section {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .text h1 {
+        font-size: 2.5rem;
+    }
+
+    .counter h2 {
+        font-size: 2.5rem;
+    }
+
+    .getstart-btn button {
+        padding: 15px 40px;
+    }
+}
+
+/* Styles for larger devices (min-width: 1024px) */
+@media (min-width: 1024px) {
+    body {
+        padding: 40px;
+    }
+
+    .text h1 {
+        font-size: 3rem;
+    }
+
+    .getstart-btn button {
+        padding: 20px 60px;
+    }
+
+    .counter h2 {
+        font-size: 3.5rem;
+    }
+}
