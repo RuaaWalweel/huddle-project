@@ -21,7 +21,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
+    padding: 10px;
 }
 
 .logo {
@@ -45,8 +45,11 @@ body {
 
 /* Text Section */
 .text {
+    width: 80%;
+    margin: auto;
     text-align: center;
     padding: 30px;
+    margin-top: 50px;
 }
 
 .text h1 {
@@ -96,6 +99,7 @@ body {
     align-items: center;
     justify-content: space-around;
     padding: 30px;
+    margin-bottom: 100px;
 }
 
 .counter {
@@ -166,12 +170,14 @@ body {
     flex-direction: row;
     text-align: center;
     width: 100%;
+    margin-top: 100px;
 }
 
 .flowing-conv img {
     width: 100%;
     height: auto;
     margin: auto;
+    margin-bottom: 100px;
 }
 
 /* user */
@@ -180,7 +186,7 @@ body {
     background-repeat: no-repeat;
     background-size: 100% 100%;
     height: 100px;
-   
+   margin-top: 100px;
 }
 
 .users {
@@ -211,6 +217,7 @@ body {
     background-repeat: no-repeat;
     background-size: 100% 100%;
     height: 100px;
+    margin-bottom: 150px;
 }
 
 /* footer */
