@@ -69,6 +69,7 @@ body {
     display: flex;
     justify-content: center;
     padding: 30px;
+    margin-bottom: 100px;
 }
 
 .btn button {
@@ -458,6 +459,7 @@ footer {
         width: 40%;
         padding: 10px;
         font-size: 1rem;
+        margin-top: 10px;
     }
     .company-info{
         width: 100%;
@@ -551,6 +553,12 @@ footer {
     .newsletter input[type="email"] {
         width: 100%;
         
+    }
+    .newsletter button {
+        width: 20%;
+        padding: 10px;
+        font-size: 1rem;
+        margin-top: 10px;
     }
     .newsletter form {
         flex-direction: column;
