@@ -45,7 +45,7 @@ body {
 
 /* Text Section */
 .text {
-    width: 80%;
+    width: 60%;
     margin: auto;
     text-align: center;
     padding: 30px;
@@ -61,6 +61,7 @@ body {
 
 .text p {
     font-weight: 400;
+    text-align: left;
     color: hsl(192, 100%, 9%);
 }
 
